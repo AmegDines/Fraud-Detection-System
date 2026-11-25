@@ -1,0 +1,4 @@
+transaction_id,timestamp,sender_id,receiver_id,amount,location,payment_channel,fraud_score,predicted_label,actual_label
+TXN_1793448447862_393,2026-10-31 12:07:27,ACC_RISK_018,ACC_MULE_009,4256.41,Moscow, Russia,Web Browser,0.9065,1,1
+TXN_1793448447970_125,2026-10-31 12:07:27,ACC_RISK_008,ACC_MULE_006,4100.58,Lagos, Nigeria,Wire Transfer,0.9277,1,1
+TXN_1793448448973_413,2026-10-31 12:07:28,ACC_RISK_005,ACC_MULE_007,1412.25,Moscow, Russia,Web Browser,0.8352,1,1

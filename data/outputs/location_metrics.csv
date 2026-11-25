@@ -1,0 +1,14 @@
+location,tx_count,total_amount,fraud_count,fraud_rate_pct
+"Moscow, Russia",119,723902.24,119,100.00
+"Lagos, Nigeria",119,397873.41,119,100.00
+"Dubai, UAE",815,516586.94,112,13.74
+"Singapore, SG",796,290689.75,54,6.78
+"Zurich, Switzerland",834,281176.93,51,6.12
+"Bogota, Colombia",45,131600.96,45,100.00
+"Berlin, Germany",769,101630.1,16,2.08
+"Toronto, Canada",762,92042.73,12,1.57
+"London, UK",756,93493.78,11,1.46
+"Paris, France",729,86916.01,11,1.51
+"New York, USA",765,84200.43,6,0.78
+"Sydney, Australia",717,79707.56,5,0.70
+"Tokyo, Japan",774,79030.18,4,0.52

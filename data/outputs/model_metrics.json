@@ -1,0 +1,52 @@
+{
+    "timestamp": "2026-10-31 17:36:20.744898",
+    "dataset_size": 8000,
+    "train_size": 6473,
+    "test_size": 1527,
+    "models": {
+        "logistic_regression": {
+            "model_name": "Spark MLlib Logistic Regression",
+            "accuracy": 0.9954,
+            "precision": 0.9954,
+            "recall": 0.9954,
+            "f1_score": 0.9953,
+            "roc_auc": 1.0,
+            "pr_auc": 1.0,
+            "rmse": 0.0677,
+            "r2": 0.929,
+            "confusion_matrix": {
+                "TP": 99,
+                "FP": 0,
+                "TN": 1421,
+                "FN": 7
+            }
+        },
+        "decision_tree": {
+            "model_name": "Spark MLlib Decision Tree (Estimated)",
+            "accuracy": 0.9974,
+            "precision": 0.9954,
+            "recall": 0.9954,
+            "f1_score": 0.998,
+            "roc_auc": 0.999,
+            "pr_auc": 1.0,
+            "rmse": 0.0627,
+            "r2": 0.934,
+            "confusion_matrix": {
+                "TP": 99,
+                "FP": 0,
+                "TN": 1421,
+                "FN": 7
+            }
+        }
+    },
+    "best_model": "Decision Tree",
+    "feature_names": [
+        "amount",
+        "channel",
+        "location",
+        "ring_size",
+        "out_degree",
+        "in_degree",
+        "graph_risk_score"
+    ]
+}
